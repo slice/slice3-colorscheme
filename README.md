@@ -1,9 +1,11 @@
 # slice3
 
-![A screenshot of slice3.](/assets/shot.png)
+![A screenshot of slice3.](/assets/shot.png "nice, eh?")
 
-A neat colorscheme for Sublime Text 3, based off of the excellent
-[https://github.com/nanotech/jellybeans.vim](jellybeans) colorscheme for Vim.
+> The font used in the screenshot is **[PragmataPro].**
+
+A neat colorscheme for Sublime Text 3, based off of the excellent [jellybeans]
+colorscheme for Vim.
 
 ## Requirements
 
@@ -16,3 +18,6 @@ A neat colorscheme for Sublime Text 3, based off of the excellent
   navigate into `User`.)
 * <kbd>&#8984;+&#8679;+P</kbd>, type `UI: Select Color Scheme`, then select
   `slice3`!
+
+[pragmatapro]: https://www.fsd.it/shop/fonts/pragmatapro/
+[jellybeans]: https://github.com/nanotech/jellybeans.vim
