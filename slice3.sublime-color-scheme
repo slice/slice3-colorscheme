@@ -1,0 +1,157 @@
+{
+  "name": "slice3",
+  "author": "slice",
+  "variables": {
+    "black": "hsl(0, 0%, 0%)",
+    "blue": "hsl(203, 52%, 71%)",
+    "blue2": "hsl(203, 28%, 42%)",
+    "blue3": "hsl(219, 54%, 65%)",
+    "blue4": "hsl(210, 68%, 82%)",
+    "green": "hsl(91, 64%, 34%)",
+    "grey": "hsl(0, 0%, 35%)",
+    "grey2": "hsl(0, 0%, 22%)",
+    "orange": "hsl(33, 100%, 36%)",
+    "orange2": "hsl(33, 100%, 70%)",
+    "orange3": "hsl(40, 93%, 73%)",
+    "pink": "hsl(270, 30%, 60%)",
+    "purple": "hsl(252, 94%, 74%)",
+    "red": "hsl(355, 100%, 32%)",
+    "red2": "hsl(9, 100%, 41%)",
+    "red3": "hsl(14, 58%, 55%)",
+    "white": "hsl(0, 0%, 100%)",
+    "white2": "hsl(60, 31%, 87%)",
+
+    // The main green color, used for strings.
+    "green2": "hsl(78, 30%, 55%)",
+    "green2_dark": "hsl(78, 30%, 30%)"
+  },
+  "globals": {
+    "foreground": "var(white2)",
+    "background": "hsl(0, 0%, 10%)",
+    "caret": "var(blue4)",
+    "invisibles": "hsl(0, 0%, 25%)",
+    "line_highlight": "hsl(0, 0%, 12%)",
+    "selection": "hsl(0, 0%, 15%)",
+    "gutter_foreground": "var(grey2)",
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "var(grey)"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(green2)"
+    },
+    {
+      "name": "String Begin/End",
+      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "foreground": "var(green2_dark)"
+    },
+    {
+      "name": "Symbol",
+      "scope": "constant.other",
+      "foreground": "var(blue3)"
+    },
+    {
+      "name": "Regexp",
+      "scope": "string.regexp",
+      "foreground": "var(pink)",
+    },
+    {
+      "name": "Variable",
+      "scope": "variable, support.class",
+      "foreground": "var(orange2)"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "foreground": "var(red3)"
+    },
+    {
+      "name": "Entity",
+      "scope": "entity",
+      "foreground": "var(orange2)",
+    },
+    {
+      "name": "Entity Function",
+      "scope": "entity.name.function",
+      "foreground": "var(orange3)"
+    },
+    {
+      "name": "Entity Class",
+      "scope": "entity.name.class",
+      "font_style": "bold"
+    },
+    {
+      "name": "Attribute Name",
+      "scope": "entity.other.attribute-name",
+      "foreground": "var(green2)",
+      "font_style": "italic"
+    },
+    {
+      "name": "JSX Tag Symbols",
+      "scope": "meta.jsx punctuation.definition.tag",
+      "foreground": "hsl(33, 100%, 80%)"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword.control",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "JS Import",
+      "scope": "keyword.operator.module.js",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "Diff insertion",
+      "scope": "diff.inserted, markup.inserted",
+      "foreground": "var(green)"
+    },
+    {
+      "name": "Diff deletion",
+      "scope": "diff.deleted, markup.deleted",
+      "foreground": "var(red)"
+    },
+    {
+      "name": "Diff header",
+      "scope": "meta.diff.header",
+      "foreground": "var(white)",
+      "background": "var(blue2)"
+    },
+    {
+      "name": "Diff range",
+      "scope": "meta.diff.range",
+      "foreground": "var(grey)",
+      "font_style": "italic"
+    },
+    {
+      "name": "Diff changed",
+      "scope": "markup.changed",
+      "foreground": "var(purple)"
+    },
+    {
+      "name": "SublimeLinter Warning",
+      "scope": "sublimelinter.mark.warning",
+      "foreground": "var(orange)"
+    },
+    {
+      "name": "SublimeLinter Error",
+      "scope": "sublimelinter.mark.error",
+      "foreground": "var(red2)"
+    },
+    {
+      "name": "SublimeLinter Gutter Mark",
+      "scope": "sublimelinter.gutter-mark",
+      "foreground": "var(white)"
+    }
+  ]
+}
