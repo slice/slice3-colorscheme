@@ -15,6 +15,7 @@
     "orange3": "hsl(40, 93%, 73%)",
     "pink": "hsl(270, 30%, 60%)",
     "purple": "hsl(252, 94%, 74%)",
+    "purple_light": "hsl(253, 97%, 85%)",
     "red": "hsl(355, 100%, 32%)",
     "red2": "hsl(9, 100%, 41%)",
     "red3": "hsl(14, 58%, 55%)",
@@ -66,6 +67,11 @@
       "foreground": "var(orange2)"
     },
     {
+      "name": "Instance variable",
+      "scope": "variable.other.readwrite.instance, meta.class meta.property.object",
+      "foreground": "var(purple_light)"
+    },
+    {
       "name": "Number",
       "scope": "constant.numeric",
       "foreground": "var(red3)"
@@ -98,7 +104,7 @@
     },
     {
       "name": "Keyword",
-      "scope": "keyword.control",
+      "scope": "keyword.control, keyword.operator",
       "foreground": "var(blue)"
     },
     {
@@ -108,8 +114,13 @@
     },
     {
       "name": "JS Import",
-      "scope": "keyword.operator.module.js",
+      "scope": "keyword.operator.module.js, support.type.object.module",
       "foreground": "var(blue)"
+    },
+    {
+      "name": "Support function",
+      "scope": "support.function",
+      "foreground": "var(purple_light)"
     },
     {
       "name": "Diff insertion",
