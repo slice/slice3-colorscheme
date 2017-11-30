@@ -103,11 +103,6 @@
       "font_style": "italic"
     },
     {
-      "name": "JSX Tag Symbols",
-      "scope": "meta.jsx punctuation.definition.tag",
-      "foreground": "hsl(33, 100%, 80%)"
-    },
-    {
       "name": "Keyword",
       "scope": "keyword.control",
       "foreground": "var(blue)"
