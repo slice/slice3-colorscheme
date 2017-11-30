@@ -42,19 +42,24 @@
       "foreground": "var(grey)"
     },
     {
+      "name": "Punctuation",
+      "scope": "punctuation",
+      "foreground": "hsla(60, 15%, 30%, 1)"
+    },
+    {
       "name": "String",
       "scope": "string",
       "foreground": "var(green2)"
     },
     {
       "name": "String Begin/End",
-      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "scope": "punctuation.definition.string",
       "foreground": "var(green2_dark)"
     },
     {
-      "name": "Symbol",
-      "scope": "constant.other",
-      "foreground": "var(blue3)"
+      "name": "Constant",
+      "scope": "constant",
+      "foreground": "var(blue)"
     },
     {
       "name": "Regexp",
@@ -104,7 +109,7 @@
     },
     {
       "name": "Keyword",
-      "scope": "keyword.control, keyword.operator",
+      "scope": "keyword.control",
       "foreground": "var(blue)"
     },
     {
@@ -118,8 +123,8 @@
       "foreground": "var(blue)"
     },
     {
-      "name": "Support function",
-      "scope": "support.function",
+      "name": "Support",
+      "scope": "support",
       "foreground": "var(purple_light)"
     },
     {
