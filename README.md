@@ -1,9 +1,5 @@
 # slice3
 
-![A screenshot of slice3.](/assets/shot.png "nice, eh?")
-
-> The font used in the screenshot is **[PragmataPro].**
-
 A neat colorscheme for Sublime Text 3, based off of the excellent [jellybeans]
 colorscheme for Vim.
 
